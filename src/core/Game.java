@@ -23,7 +23,7 @@ public class Game extends JFrame implements KeyListener  {
       setLayout(null);
       
       criaQuadrado(0, 0, 64, 64, "user.png");
-      criaQuadrado(0, 0, 64, 64, "userblue.png");
+      criaQuadrado(0, 0, 200, 200, "blade.gif");
       
       
       moveBlue();
@@ -67,8 +67,8 @@ public class Game extends JFrame implements KeyListener  {
 							
 							int numeroPausa = gerador.nextInt(5);
 							int numeroRepeticoes = gerador.nextInt(5);
-							int tempoPause = gerador.nextInt(100) + 100;
-							int casasAvancar = 15;
+							int tempoPause = gerador.nextInt(100) + 0;
+							int casasAvancar = 5;
 							
 							switch (numero) {
 							case 1:
